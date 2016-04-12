@@ -16,9 +16,9 @@ body{font-size:14px;font-family:"Microsoft YaHei",Arial; overflow-x:hidden; over
 /*header*/
 .header{height: 48px;line-height: 48px;background: #a2a2a2}
 .header .user{margin-left: 2%;}
-.header .user-name{background: url(../images/icon-user.png) no-repeat left center;line-height: 48px;display: inline-block;padding-left: 35px;color: #fff;}
+.header .user-name{background: url(../images/icon-user.png) no-repeat left center;background-size:30px 30px;line-height: 48px;display: inline-block;padding-left: 35px;color: #fff;}
 .header .edit{margin-right: 2%;}
-.header .edit-s{color: #fff;background: url(../images/icon-edit.png) no-repeat center;text-indent: -999em;display: inline-block;line-height: 48px;width: 30px;}
+.header .edit-s{color: #fff;background: url(../images/icon-edit.png) no-repeat center;background-size:30px 30px;text-indent: -999em;display: inline-block;line-height: 48px;width: 30px;}
 /*content*/
 .content{background: #f4f8fb;}
 .content .content-nav{width: 100%;border-bottom: 1px solid #ccc;height: 40px;line-height: 40px;}
@@ -28,7 +28,7 @@ body{font-size:14px;font-family:"Microsoft YaHei",Arial; overflow-x:hidden; over
 .content .content-nav li.act a,.content .content-nav li:hover a{color: #ff8951}
 .content .content-nav li span{font-size: 14px;color: #ababab;padding-left: 10px;}
 
-.list-wrapper{padding-bottom: 10px;}
+.list-wrapper{padding-bottom: 10px;display: none;}
 .list-main{margin-bottom: 5px;}
 .list-main .img-view{padding: 5px;margin-right: 10px;}
 .list-main .img-view img{width: 100px;height: 100px;}

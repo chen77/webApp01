@@ -1,0 +1,44 @@
+/*reset*/
+body,ul,ol,p,h1,h2,h3,h4,h5,dl,dd,form,input,textarea,td,th,button,strong{margin:0;padding:0;}
+li{list-style:none;vertical-align:top;}
+table{ border-collapse:collapse;}
+textarea{resize:none;overflow:auto;}
+img{border:none;vertical-align:middle;}
+em{ font-style:normal;}
+a{ text-decoration:none;color: #333;}
+/*public*/
+body{font-size:14px;font-family:"Microsoft YaHei",Arial; overflow-x:hidden; overflow-y:auto;}
+.clear{zoom:1;}
+.clear:after{content:''; display:block; clear:both;}
+.left{float:left;}
+.right{float:right;}
+.viewport{max-width:640px;min-width:300px;margin:0 auto;}
+/*header*/
+.header{height: 48px;line-height: 48px;background: #a2a2a2}
+.header .user{margin-left: 2%;}
+.header .user-name{background: url(../images/icon-user.png) no-repeat left center;line-height: 48px;display: inline-block;padding-left: 35px;color: #fff;}
+.header .edit{margin-right: 2%;}
+.header .edit-s{color: #fff;background: url(../images/icon-edit.png) no-repeat center;text-indent: -999em;display: inline-block;line-height: 48px;width: 30px;}
+/*content*/
+.content{background: #f4f8fb;}
+.content .content-nav{width: 100%;border-bottom: 1px solid #ccc;height: 40px;line-height: 40px;}
+.content .content-nav li{width: 33.33%;float: left;text-align: center;}
+.content .content-nav li a{color: #565656;font-size: 16px;}
+.content .content-nav li.act,.content .content-nav li:hover{border-bottom: 2px solid #ff8951}
+.content .content-nav li.act a,.content .content-nav li:hover a{color: #ff8951}
+.content .content-nav li span{font-size: 14px;color: #ababab;padding-left: 10px;}
+
+.list-wrapper{padding-bottom: 10px;}
+.list-main{margin-bottom: 5px;}
+.list-main .img-view{padding: 5px;margin-right: 10px;}
+.list-main .img-view img{width: 100px;height: 100px;}
+.list-main .intro{width: 60%;}
+.list-main .intro .intro-top .time{color: #f00}
+.list-main .intro .intro-top {padding-top: 5px;margin-bottom: 5px;}
+.list-main .intro .name-intro{color: #999}
+
+.list-footer{border: 1px solid #ccc;height: 26px;line-height: 26px;}
+.list-footer a{color: #949494;display: inline-block;text-align: center;}
+.list-footer a.delete{width: 20%;color:#c51b03}
+.list-footer a.check{width: 58%;border-left: 1px solid #ccc;border-right: 1px solid #ccc;}
+.list-footer a.copy{width: 18%;}

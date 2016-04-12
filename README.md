@@ -11,7 +11,7 @@
 ```
 + 了解zepto框架使用,添加切换事件,
 ```js
-  var UA=window.navigator.userAgent;
+  var UA=window.navigator.userAgent.toLowerCase();
 	var Click="click";
   if(/ipad|iphone|android/.test(UA)){
 				Click="tap";

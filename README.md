@@ -20,3 +20,4 @@
 	  //方便web端调试判断浏览器后用事件
 	})
 ```
++ 熟悉css3，添加侧边栏滑出事件，[布局参照](http://codepen.io/DonPage/pen/DLdlE)

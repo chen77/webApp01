@@ -21,11 +21,25 @@
 				var index=$("#navTab li").index(this);
 				$(".wrapper>div.list-wrapper").eq(index).show().siblings().hide();
 			})
+			$("#username")[Click](function(){
+				$("#viewport").toggleClass('showNav')
+			})
 		})
 	</script>
 </head>
 <body>
-	<div class="viewport">
+	<div class="viewport" id="viewport">
+		<div class="view-content">
+		
+			<div class="side">
+			<ul class="side-nr">
+				<li><a href="javascript:;">个人中心</a><span class="right">></span></li>
+				<li><a href="javascript:;">设置</a><span class="right">></span></li>
+				<li><a href="javascript:;">收藏</a><span class="right">></span></li>
+				<li><a href="javascript:;">喜欢</a><span class="right">></span></li>
+				<li><a href="javascript:;">么么哒</a><span class="right">></span></li>
+			</ul>
+		</div>
 		<header class="header clear">
 			<div class="user left">
 				<a href="javascript:;" class="user-name" id="username">向日葵</a>
@@ -266,6 +280,7 @@
 			</div>
 			</div>
 		</div>
+	</div>
 	</div>
 </body>
 </html>
